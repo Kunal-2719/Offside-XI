@@ -145,7 +145,7 @@ export default function GameweekHub({ onNavigate }) {
                 <div style={{ fontSize:11,fontFamily:"'Barlow Condensed',monospace",color:step.color,letterSpacing:"0.14em",marginBottom:10,textTransform:"uppercase" }}>STEP {step.step}</div>
                 <div style={{ fontSize:20,marginBottom:10 }}>{step.icon}</div>
                 <div style={{ fontSize:14.5,fontWeight:900,color:"#fff",fontFamily:"'Barlow Condensed',sans-serif",textTransform:"uppercase",letterSpacing:"0.05em",marginBottom:4,lineHeight:1.3 }}>{step.label}</div>
-                <div style={{ fontSize:11.5,color:"rgba(255,255,255,0.35)",fontFamily:"'Barlow Condensed',monospace",lineHeight:1.6 }}>{step.detail}</div>
+                <div style={{ fontSize:11.5,color:"rgba(255,255,255,0.36)",fontFamily:"'Barlow Condensed',monospace",lineHeight:1.6 }}>{step.detail}</div>
                 {activeStep===i && <div style={{ position:"absolute",top:10,right:10,width:7,height:7,borderRadius:"50%",background:step.color,boxShadow:`0 0 8px ${step.color}` }}/>}
               </div>
               {i < PIPELINE.length-1 && (
